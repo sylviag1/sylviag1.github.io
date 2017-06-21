@@ -1,0 +1,110 @@
+#-------------------------------
+# General Site Settings
+
+title: Sylvia G Design
+description: OBSERVER // DESIGNER // ORIGINATOR
+email: sylviagdesign@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **I specialize in making things** with love.
+      I’ve been Designing Graphics for over 10 years  [digital interfaces](https://www.sylviagdesign.com){:target="_blank"},
+      but also web and painting.
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: InDesign, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: Illustrator, value: '9'}
+- {name: Photoshop, value: '9'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Candy Cinema 4D, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Jaeger Presentation, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Hilton Presentation, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Pet Reasons Poster, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Skyrocket Annual Report, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Panera Presentation, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Fashion Magazine, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Chicago Public Library Presentation, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-davidshelist.jpg',
+  name: 'David R. Shelist',
+  title: 'Owner, Madison and Friends/Denim Lounge.',
+  quote: '<p><strong>She is terrific at what she does</strong> Her creative skills are unmatched,  always delivers a quality, creative product on a time.  Her unique ways of taking an email description and making either an advertisement for a magazine, newspaper or a post card is remarkable. I cannot recommend Sylvia more highly.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-agnieszkapokropek.jpg',
+  name: 'Agnieszka Pokropek',
+  title: 'Marketing Director, Polvision–Polish TV.',
+  quote: '<p><strong>She is nice to work with</strong> and gives professional suggestions for representing Polvision. We continue to work with her as our freelance designer.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-peggyatkins.jpg',
+  name: 'Peggy Atkins',
+  title: 'Owner, Imagine Works, llc.',
+  quote: '<p><strong>Talented, trustworthy and patient.</strong> She is calm in the eye of the storm. She listens and comes up with solutions to problems. Working with her is a pleasure. I highly recommend her.</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-michalsiewierski.jpg',
+  name: 'Michal Siewierski',
+  title: 'Director/Producer, Alario Group',
+  quote: '<p><strong>Sylvia is a motivated young woman of numerous talents.</strong> She is likable, enthusiastic and trustworthy. Her graphic and web design skills are well portrayed in her work.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
