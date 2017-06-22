@@ -1,10 +1,7 @@
 header
-  @extend %background-image
-  background:
-    position: 30px 20px, 50% 50%
-    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
-  padding-bottom: 50px
-
+  height: 450px
+  background: url(../img/hero-bg.jpg) center center 
+  background-size: cover (*this will stretch the image so there is no repeat)
 
   .logo
     +size(50px)
@@ -12,8 +9,9 @@ header
     margin: 10px 0 0 30px
 
     path
-      fill: rgba(0,0,0,0.4)
+      fill: rgba(0,0,0,0.4) (*this is the color for the logo 0,0,0,0.4 is 40%)
 
+  
   nav
     float: right
     padding: 30px 30px 0 0
@@ -27,9 +25,16 @@ header
 
       &:hover
         color: rgba(0,0,0,1)
+   
+   font:
+   size: 14px
+   weight: 700
+  text-transform: uppercase
 
-  h1
-    text-align: center
+&:hover (*& means all the selectors that came before so it will be header, nav, a, hover not just random hover)
+        color: rgba(0,0,0,1)
+h1
+    text-align: center (*to create  box around text)
     font:
       size: 72px
       weight: 700
@@ -37,18 +42,19 @@ header
     text-transform: uppercase
     letter-spacing: 0.05em
     margin-bottom: 20px
-    clear: both
+    clear: both (* because you are floating nav the theme has h1 margin top of 20 or 30 px and its jumping up to the topped being pushed by  the nav and left by logo and its being of set so use clear: both fix )
     padding-top: 100px
 
-
-    span
-      display: inline-block
-      padding: 0.2em 0.5em
+span
+      display: inline-block (*to create  box around text)
+      padding: 0.5em 0.2em
       border: white solid 10px
 
-  .kicker
+.kicker
     @extend %small-bold
     text-align: center
+    font:
+      weight: 700 (* is same as     @extend %small-bold)
     letter-spacing: 0.05em
     color: white
     line-height: 1
