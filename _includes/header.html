@@ -1,15 +1,12 @@
-<header>
+<header id="header">
 
-	<div class="logo">{% include icons/logo.html %}</div>
-	
-	<nav>
-	  <a href="">About</a>
-	  <a href="">Work</a>
-	  <a href="">Clients</a>
-	  <a href="">Contact</a>
-	</nav>
-	
-	<h1><span>SYLVIA G DESIGN</span></h1>
-	<p class="kicker">OBSERVER // DESIGNER // ORIGINATOR</p>
+  <nav>
+    {% for item in site.data.settings.menu %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
 
-<header>
+  <h1><span>{{ site.data.settings.title }}</span></h1>
+  <p class="kicker">{{ site.data.settings.description }}</p>
+
+</header>
