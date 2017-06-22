@@ -1,7 +1,9 @@
 header
-  height: 450px
-  background: url(../img/hero-bg.jpg) center center 
-  background-size: cover (*this will stretch the image so there is no repeat)
+  @extend %background-image
+  background:
+  	  position: 30px 20px, 50% 50%
+  	  qimage: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  padding-bottom: 50px
 
   .logo
     +size(50px)
