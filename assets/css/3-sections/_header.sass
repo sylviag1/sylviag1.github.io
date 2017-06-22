@@ -1,7 +1,7 @@
 header
   height: 450px
   background: url(../img/hero-bg.jpg) center center 
-  background-size: cover (*this will stretch the image so there is no repeat)
+  background-size: cover 
 
   .logo
     +size(50px)
@@ -9,7 +9,7 @@ header
     margin: 10px 0 0 30px
 
     path
-      fill: rgba(0,0,0,0.4) (*this is the color for the logo 0,0,0,0.4 is 40%)
+      fill: rgba(0,0,0,0.4) 
 
   
   nav
@@ -31,10 +31,8 @@ header
    weight: 700
   text-transform: uppercase
 
-&:hover (*& means all the selectors that came before so it will be header, nav, a, hover not just random hover)
-        color: rgba(0,0,0,1)
 h1
-    text-align: center (*to create  box around text)
+    text-align: center 
     font:
       size: 72px
       weight: 700
@@ -42,11 +40,11 @@ h1
     text-transform: uppercase
     letter-spacing: 0.05em
     margin-bottom: 20px
-    clear: both (* because you are floating nav the theme has h1 margin top of 20 or 30 px and its jumping up to the topped being pushed by  the nav and left by logo and its being of set so use clear: both fix )
+    clear: both 
     padding-top: 100px
 
 span
-      display: inline-block (*to create  box around text)
+      display: inline-block 
       padding: 0.5em 0.2em
       border: white solid 10px
 
@@ -54,7 +52,7 @@ span
     @extend %small-bold
     text-align: center
     font:
-      weight: 700 (* is same as     @extend %small-bold)
+      weight: 700 
     letter-spacing: 0.05em
     color: white
     line-height: 1
