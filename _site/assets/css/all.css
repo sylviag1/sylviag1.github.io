@@ -605,12 +605,12 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
 
 header, footer {
   background-repeat: no-repeat, no-repeat;
-  background-size: 200px 200px, cover;
+  background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%;
   background-blend-mode: overlay, normal; }
 
 header {
-  background-position: 30px 20px, 80% 80%;
+  background-position: 30px 20px, 50% 50%;
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
