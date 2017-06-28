@@ -610,7 +610,7 @@ header, footer {
   background-blend-mode: overlay, normal; }
 
 header {
-  background-position: 30px 20px, 50% 50%;
+  background-position: 30px 20px, 80% 80%;
   background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
